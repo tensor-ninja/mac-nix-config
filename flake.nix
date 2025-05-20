@@ -15,6 +15,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ pkgs.neovim
+          pkgs.firefox
           pkgs.llama-cpp
           pkgs.mkalias
           pkgs.code-cursor
